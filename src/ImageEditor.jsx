@@ -57,6 +57,7 @@ function ImageEditor() {
   };
 
   const handleEraserSizeChange = (event) => {
+    stopErasing()
     setEraserSize(parseInt(event.target.value));
   };
 
