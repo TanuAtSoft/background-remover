@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
      <ImageEditor/>
+     <img src="/newTest.png" alt="test"/>
     </div>
   );
 }
